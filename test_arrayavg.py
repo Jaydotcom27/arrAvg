@@ -10,3 +10,7 @@ class TestArrayAvg(unittest.TestCase):
     def test_sum2(self):
         result = arrayavg.CalcSum([-4, 4, 16])
         self.assertEqual(result, 16)
+
+    def test_sum3(self):
+        result = arrayavg.CalcSum([0, -2, 5, 3, 1])
+        self.assertEqual(result, 7)
