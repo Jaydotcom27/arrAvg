@@ -18,3 +18,7 @@ class TestArrayAvg(unittest.TestCase):
     def test_avg(self):
         result = arrayavg.CalcAvg([4, 7, 2], 13)
         self.assertEqual(result, 4.333333333333333)
+
+    def test_avg2(self):
+        result = arrayavg.CalcAvg([-2, 5, 6, 7], 16)
+        self.assertEqual(result, 4)
