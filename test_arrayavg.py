@@ -26,3 +26,7 @@ class TestArrayAvg(unittest.TestCase):
     def test_avg3(self):
         result = arrayavg.CalcAvg([9, 8, 7, -11, 4, 25, 98],  140)
         self.assertEqual(result, 20)
+
+    def test_greater(self):
+        result = arrayavg.getGreater([4, 7, 2], 4.333333333333333)
+        self.assertEqual(result, [7])

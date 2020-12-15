@@ -8,8 +8,16 @@ def CalcSum(initialArray):
     return sum
 
 
-sum = CalcSum(initialArray)
-
-
 def CalcAvg(initialArray, sum):
     return sum/len(initialArray)
+
+
+def getGreater(initialArray, avg):
+    newArray = []
+    for x in range(len(initialArray)):
+        if (initialArray[x] > avg):
+            newArray.append(initialArray[x])
+    return newArray
+
+
+print(getGreater([4, 7, 2], 4.333333333333333))
