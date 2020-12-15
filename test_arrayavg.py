@@ -14,3 +14,7 @@ class TestArrayAvg(unittest.TestCase):
     def test_sum3(self):
         result = arrayavg.CalcSum([0, -2, 5, 3, 1])
         self.assertEqual(result, 7)
+
+    def test_avg(self):
+        result = arrayavg.CalcAvg([4, 7, 2], 13)
+        self.assertEqual(result, 4.333333333333333)
