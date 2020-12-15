@@ -18,3 +18,7 @@ class testArrayavg(unittest.TestCase):
     def test_GreaterVals(self):
         result = arrayavg.GreaterVals([1, 2, 3])
         self.assertEqual(result, [3])
+
+    def test_GreaterVals2(self):
+        result = arrayavg.GreaterVals([-8, 0, 9])
+        self.assertEqual(result, [9])
