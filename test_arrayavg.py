@@ -34,3 +34,7 @@ class TestArrayAvg(unittest.TestCase):
     def test_greater2(self):
         result = arrayavg.getGreater([-2, 5, 6, 7], 4)
         self.assertEqual(result, [5, 6, 7])
+
+    def test_greater3(self):
+        result = arrayavg.getGreater([9, 8, 7, -11, 4, 25, 98], 20)
+        self.assertEqual(result, [25, 98])
