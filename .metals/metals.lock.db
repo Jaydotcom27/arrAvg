@@ -1,0 +1,6 @@
+#FileLock
+#Wed Dec 16 19:59:52 BOT 2020
+hostName=localhost
+id=1766dfeecd13794dd3e2bd597baf92b66ade7641d9b
+method=file
+server=localhost\:50418
